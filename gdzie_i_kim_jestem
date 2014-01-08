@@ -1,0 +1,5 @@
+#!/bin/bash
+
+GDZIE_JESTEM=`pwd`
+KIM_JESTEM=`whoami`
+echo "Nazywam sie $KIM_JESTEM i przebywam w katalogu $GDZIE_JESTEM"
