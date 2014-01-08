@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Nazwa skryptu to: $0"
+echo '------------------------------------'
+echo "Nazwa pierwszego argumentu to: $1"
+echo '------------------------------------'
+echo "Wszystkie argumenty: $*"
+echo '------------------------------------'
+echo "Podałeś $# poleceń"
