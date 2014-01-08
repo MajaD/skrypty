@@ -1,0 +1,3 @@
+skrypty
+=======
+podstawowe skrypty
