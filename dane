@@ -1,0 +1,4 @@
+#!/bin/bash
+echo 'Jak masz na imię?'
+read zmienna
+echo "Twoje imie to: $zmienna"
