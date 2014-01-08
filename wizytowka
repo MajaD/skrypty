@@ -1,0 +1,21 @@
+#!/bin/bash
+echo 'Wizytowka'
+echo '#####################################'
+echo 'Program poprosi cię o wpisanie różnych danych.'
+echo 'Po wpisaniu wciśnij Enter by przejść dalej.'
+echo '#####################################'
+echo 'Podaj swoje Imię i Nazwisko:'
+read name
+echo 'Podaj swój adres E-Mail:'
+read mail
+echo 'Podaj numer Gadu-Gadu:'
+read gg
+echo '#####################################'
+echo 'Pobieranie danych zakończone'
+touch wizytowka.txt
+echo "$name" >> wizytowka.txt
+echo "Email: $mail" >> wizytowka.txt
+echo "Gadu-Gadu $gg" >> wizytowka.txt
+echo 'Generowanie wizytówki zakończone'
+echo 'Plik wizytowka.txt gotowy!'
+echo '#####################################'
